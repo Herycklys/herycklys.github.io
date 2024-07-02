@@ -1,0 +1,27 @@
+---
+layout: default
+modal-id: cvc-client
+img: CVC_Blue_Icon.png
+company_background: '#ffdc2c'
+project_link: https://cvc.com.br
+alt: cvc icon
+project-date: April 2019 - June 2020
+client: CVC
+description: Having <span class="lead">34 million</span> clients, a valuation of <span class="lead">$200 million</span> dollars, and being the largest company of leisure and tourism in Latin America. The biggest challenge faced by CVC during that period was to update their overall infrastructure that covered the 1000 physical stores and e-commerce. In the digital world to stay competitive it's imperative to bring new platforms that better translate the company goals and user needs.
+projects:
+    - Ember to NextJS project migration.
+    - Static landing pages using Gatsby with data coming from Contentful + NodeJS and Elasticsearch for content indexing and enhancement.
+    - Payment gateway and content aggregation with Java Spring Boot and Oracle DB.
+stack-list:
+    - NodeJS
+    - NextJS/React
+    - Gatsby
+    - Typescript
+    - Oracle DB
+    - Java Spring Boot
+    - Kubernetes
+    - Jenkins
+    - EmberJS
+    - Contentful
+    - Elasticsearch
+---

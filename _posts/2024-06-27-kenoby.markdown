@@ -1,0 +1,23 @@
+---
+layout: default
+modal-id: kenoby
+img: kenoby_logo.gif
+company_background: '#0d5a9e'
+project_link: https://gupy.io/clientes-kenoby
+alt: kenoby logo
+project-date: January 2018 - June 2018
+client: Kenoby
+description: Before being acquired by the largest player in the Brazilian R&S market. Kenoby used to have millions of applicants daily, and thousands of job posts. My responsibilities were maintaining and developing new features for the jobs dashboards, jobs post pages, and constant support for the CX team.
+projects:
+    - PHP Laravel development.
+    - Angular and NodeJS/Koa development.
+    - Technical support for the CX team.
+stack-list:
+    - Angular
+    - MongoDB
+    - Nodejs
+    - Koa
+    - PHP
+    - Laravel
+    - Elasticsearch
+---

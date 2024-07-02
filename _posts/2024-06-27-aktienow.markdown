@@ -1,0 +1,23 @@
+---
+layout: default
+modal-id: aktienow
+img: aktie_now_logo.png
+company_background: '#fff'
+project_link: https://aktienow.com
+alt: Aktie now icon
+project-date: September 2016 - December 2017
+client: Aktie Now
+description: Award-winning Brazilian CX consultancy specialized in Zendesk integrations having clients such as IBM Brazil. The company was still at the starting point and had several projects to enhance and support many client's needs over the Zendesk platform.
+projects:
+    - Zendesk widget development.
+    - Mass ticket processing for business intelligence.
+    - Technical mentorship.
+stack-list:
+    - Angular
+    - jQuery
+    - Nodejs
+    - Express
+    - Zendesk
+    - MongoDB
+    - MSSQL
+---

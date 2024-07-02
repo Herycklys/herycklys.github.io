@@ -1,0 +1,30 @@
+---
+layout: default
+modal-id: imgur
+img: imgur_logo_icon.png
+company_background: '#1bb76e'
+project_link: https://imgur.com
+alt: imgur icon
+project-date: March 2022 - Active
+client: Imgur
+description: The funniest place on the internet. Imgur currently has around *3 million DAU* and billions of requests daily, besides the terabytes of content uploaded. At this point, the common challenges we face are scaling services without hurting our databases, and improving our SPA/SSR while also working on a migration from PHP/Kohana.
+projects:
+    - API and script development with Golang
+    - PHP legacy maintenance
+    - React/NextJS development
+    - On-call rotation
+    - Image/Video classifiers built in Python/TensorFlow, running on Kubernetes with GPU enabled.
+    - Application monitoring with Sentry and Datadog.
+stack-list:
+    - Golang
+    - go-chi
+    - Kubernetes
+    - Redis
+    - PHP
+    - React
+    - NextJS
+    - MySQL
+    - Datadog
+    - Python
+    - AWS
+---

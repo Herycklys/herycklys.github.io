@@ -198,6 +198,8 @@ section.success {
 #portfolio .portfolio-item {
     right: 0;
     margin: 0 0 15px;
+    height: 260px;
+    min-width: 33%;
 }
 
 #portfolio .portfolio-item .portfolio-link {
@@ -205,9 +207,18 @@ section.success {
     position: relative;
     margin: 0 auto;
     max-width: 400px;
+    height: 100%;
+}
+
+#portfolio .portfolio-item .portfolio-link .company-icon {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
 }
 
 #portfolio .portfolio-item .portfolio-link .caption {
+    z-index: 3;
     position: absolute;
     width: 100%;
     height: 100%;
@@ -413,8 +424,14 @@ footer .footer-below {
     outline: 0;
 }
 
+.about-lead-text {
+    width: 80%;
+    margin: 20px auto 0;
+    font-size: 2.5rem;
+}
+
 .portfolio-modal .modal-content {
-    padding: 100px 0;
+    padding-top: 100px;
     min-height: 100%;
     border: 0;
     border-radius: 0;
@@ -433,8 +450,16 @@ footer .footer-below {
     margin-bottom: 30px;
 }
 
-.portfolio-modal .modal-content .item-details {
-    margin: 30px 0;
+.portfolio-modal--description {
+    padding: 8px 0;
+}
+
+.portfolio-modal--date {
+    margin-top: 20px;
+}
+
+.portfolio-modal-client--stack {
+    margin-top: 20px;
 }
 
 .portfolio-modal .close-modal {
@@ -470,6 +495,100 @@ footer .footer-below {
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
+}
+
+.service-card-container {
+    padding: 1.25rem;
+    background-color: #{{ site.color.primary }};
+    background-clip: border-box;
+    color: #fff;
+    border-radius: 6px;
+    width: 22%;
+    position: relative;
+    flex: 1 1 calc(25% - 10px);
+    margin: 5px;
+    cursor: default;
+}
+
+.service-card-container:hover {
+    opacity: 0.9;
+}
+
+.service-list-row {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: stretch;
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.service-card-icon {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    top: 3rem;
+}
+
+.service-card-body {
+    margin-top: 5rem;
+}
+
+.service-stack-list {
+    margin: 15px 5px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    background-color: #{{ site.color.secondary }};
+    grid-gap: 10px;
+    border-radius: 6px
+}
+
+.service-stack-item {
+    font-size: 2rem;
+    padding: 10px;
+    box-shadow: 0rem 0.5rem 1rem rgba(0, 0, 0, 0.53);
+    display: inline-block;
+    color: white;
+    cursor: default;
+}
+
+.service-stack-item:hover {
+    box-shadow: 0rem 0.25rem 0.5rem rgba(0, 0, 0, 0.53);
+}
+
+.service-stack-item > p {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+@media (max-width: 470px) {
+    .service-stack-list {
+        grid-template-columns: repeat(3, auto);
+    }
+}
+
+@media (max-width: 989px) {
+    .service-card-container {
+        flex: 1 1 calc(50% - 10px);
+    }
+}
+
+@media (max-width: 1199px) {
+    .portfolio-modal-projects--title {
+        margin-top: 40px;
+    }
+
+    .portfolio-modal-client--stack {
+        margin-top: 10px;
+    }
+
+    .portfolio-modal--description {
+        text-align: start;
+    }
 }
 
 .navbar-nav>.active>a {

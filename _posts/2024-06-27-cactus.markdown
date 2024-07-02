@@ -1,0 +1,20 @@
+---
+layout: default
+modal-id: cactus
+img: cactus_logo.png
+company_background: 'black'
+project_link: https://cactus.is
+alt: cactus logo
+project-date: March 2021 - May 2021
+client: Cactus
+description: Software boutique responsible for building interactive platforms on and off-line. Some clients are Mount Sinai, Dell Care, and Beyonce. The company has built some of the most outstanding experiences in the entertainment business. Over there I was working on maintaining and improving dynamic websites built in NextJS.
+projects:
+    - Mailchimp integration
+    - Website development with NextJS and Heroku
+stack-list:
+    - React
+    - NextJS
+    - react-spring
+    - ContentFul
+    - Heroku
+---
